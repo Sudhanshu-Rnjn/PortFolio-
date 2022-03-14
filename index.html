@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,7 +20,9 @@
 </head>
 
 <body>
-    <p class="resumeDownload">Resume ⏬</p>
+    
+    <p class="WorkinProgress">Work in Progress </p>
+    <p class="resumeDownload"> </p>
 
 
     <nav id="navbar">
@@ -39,12 +48,12 @@
 
             <div class="left">
                 <div class="Heading">
-                    <p>HELLO THERE</p>
+                    <p><strong>HELLO THERE</strong></p>
                     <h1>
-                        I am Sudhranjan Ranjan
+                        I am Sudhranjan Ranjan😊
                     </h1>
                     <h2>
-                        I am a Mern Stack Developer
+                        I am a Mern Stack Developer👍
                     </h2>
                 </div>
 
@@ -56,7 +65,7 @@
 
             <div class="right">
                 <div class="box">
-                    <img src="./public/images/hacker-gcec6cb356_1280-removebg-preview.png">
+                    <img src="./public/images/SocialBook_Cartoonizer_Beard-removebg-preview.png">
                     <div class="cardcontent">
                         <h2>Sudhanshu Ranjan</h2>
                         <div class="link">
@@ -70,14 +79,14 @@
                                 <i class="fa-solid fa-phone fa-2x"></i>
                             </a>
                             <a href='#'>
-                                <i class="fa-brands fa-google fa-2x"></i>
+                                <i class="fa-brands fa-at fa-2x"></i>
 
                             </a>
 
                         </div>
                         <p>Full-Stack Web Developer</p>
                         <button class="cardbtn">Resume</button>
-                        <a href="#contact" class="resumeDownload">Contact Me</a>
+                        <a href="#About" class="cardbtn2">About Me</a>
                         <!-- <p class="resumeDownload">  Hire Sudhanshu</p> -->
                     </div>
                 </div>
@@ -93,47 +102,51 @@
 
     <section id="About">
         <div class="Aboutme">
-            <div class="aboutmeHead">
+            <div class="aboutmeHead" data-aos="fade">
                 <h3>About</h3>
                 <h1>Personal Info</h1>
                 <p>Ge to Know more aout me</p>
             </div>
             <div class="aboutmeContent">
-                <div class="hello">
+                <div class="hello" data-aos="slide-right">
                     <p>hello</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facilis aliquam voluptatum
                         quaerat perferendis animi nulla molestiae vel a architecto blanditiis, ipsa atque ts?</p>
-
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facilis aliquam voluptatum
+                            quaerat perferendis animi nulla molestiae vel a architecto blanditiis, ipsa atque ts?</p>
+    
                 </div>
 
-                <div class="aboutmeskill">
-
-                    <div class="Frontend skillbtn">
-                        <h3>SKILLS</h3>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <P>React</P>
+                <div class="aboutmeskill" data-aos="slide-left">
+                  <div class="aboutskillhead">
+                    <h3>SKILLS</h3>
+                </div>
+                <div>
+                    <div class=" skillbtn">
+                       
+                    
+                        <div class="div1">html</div>
+                        <div class="div2">Css</div>
+                        <div class="div3">JS</div>
+                        <div class="div4">REACT</div>
+                        <div class="div5">BootStrap</div>
+                        <div class="div6">Front</div>
+                        <div class="div7">Node</div>
+                        <div class="div8">Java</div>
+                        <div class="div9">MySQL</div>
+                        <div class="div10">MongoDB</div>
+                        <div class="div11">Spring</div>
+                        <div class="div12">HTML</div>
+                        <div class="div13">HTML</div>
+                        <div class="div14">HTML</div>
+                        <div class="div15">HTML</div>
+                        <div class="div16">HTML</div>
+                        
                     </div>
 
-                    <div class="backend skillbtn">
-                        <p>Spring</p>
-                        <p>NodeJs</p>
-                        <p>Express</p>
-
-                    </div>
-
-                    <div class="storage skillbtn">
-                        <p>Mysql</p>
-                        <p>keyPair</p>
-
-                    </div>
-
-                    <div class="lan skillbtn">
-                        <p>Java</p>
-
-
-                    </div>
+                    
+                </div>
+                    
 
                 </div>
 
@@ -145,7 +158,7 @@
 
         </div>
 
-        <div class="LifeBar">
+        <div class="LifeBar" data-aos="slide-up">
             <img src="./public/images/path.png"></img>
         </div>
 
@@ -157,28 +170,216 @@
     <section id="Projects">
         <container class="Project">
             <h1>Projects...</h1>
+
             <div class="projectList">
-                <!-- PROJECT 1-------------------- -->
-                <div class="projectbox">
-                    <div class="photo">
-                        <img src="./public/images/3333.jpg"></img>
-                    </div>
-                    <div class="Pdescrip">
-                        <p>ababababab ab aeb ab ab a babababab ab aeb ab ab a babababab ab aeb ab ab a babababab ab aeb
-                            ab ab a ba b bab </p>
-                    </div>
-                    <div class="Pbtnn">
-                        <div class="code">
-                            <button>code</button>
+
+
+
+              
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+                <div class="card">
+                    <div class="face front">
+                        <div class="photo">
+                            <img src="./public/images/predecto.PNG"></img>
                         </div>
-                        <div class="Live Demo">
-                            <button>LIVE DEMO</button>
+                    </div>
+
+
+                    <div class="face back">
+                        <div class="projcardhed">
+                            <p><strong>PREDECTO</strong></p>
+                        </div>
+                        <div class="Pdescrip">
+                            <p>With help of environmental conditions that takes place prior to a disease attack and
+                                learn
+                                the pattern to predict the disease using Machine Learning and IoT. </p>
+                        </div>
+                        <div class="Pbtnn">
+                            <div>
+                                <button class="bt1">CODE</button>
+                            </div>
+                            <div>
+                                <button class="bt1"><a href="http://predicto-cdp.herokuapp.com/">DEMO</a></button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+
+
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+                <div class="card">
+                    <div class="face front">
+                        <div class="photo">
+                            <img src="./public/images/jake-weirick-FVURMqyVIoU-unsplash.jpg"></img>
+                        </div>
+                    </div>
+
+
+                    <div class="face back">
+                        <div class="projcardhed">
+                            <p><strong>PREDECTO</strong></p>
+                        </div>
+                        <div class="Pdescrip">
+                            <p>With help of environmental conditions that takes place prior to a disease attack and
+                                learn
+                                the pattern to predict the disease using Machine Learning and IoT. </p>
+                        </div>
+                        <div class="Pbtnn">
+                            <div>
+                                <button class="bt1">CODE</button>
+                            </div>
+                            <div>
+                                <button class="bt1"><a href="http://predicto-cdp.herokuapp.com/">DEMO</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+
+
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+                <div class="card">
+                    <div class="face front">
+                        <div class="photo">
+                            <img src="./public/images/andre-benz-JnB8Gio4GZo-unsplash.jpg"></img>
+                        </div>
+                    </div>
+
+
+                    <div class="face back">
+                        <div class="projcardhed">
+                            <p><strong>PREDECTO</strong></p>
+                        </div>
+                        <div class="Pdescrip">
+                            <p>With help of environmental conditions that takes place prior to a disease attack and
+                                learn
+                                the pattern to predict the disease using Machine Learning and IoT. </p>
+                        </div>
+                        <div class="Pbtnn">
+                            <div>
+                                <button class="bt1">CODE</button>
+                            </div>
+                            <div>
+                                <button class="bt1"><a href="http://predicto-cdp.herokuapp.com/">DEMO</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
 
 
 
+
+
+                <!-- //////////////////////////Card2 testing -->
+            </div>
+
+
+
+
+            <div class="projectList">
+
+
+
+              
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+                <div class="card">
+                    <div class="face front">
+                        <div class="photo">
+                            <img src="./public/images/test (2).jpg"></img>
+                        </div>
+                    </div>
+
+
+                    <div class="face back">
+                        <div class="projcardhed">
+                            <p><strong>PREDECTO</strong></p>
+                        </div>
+                        <div class="Pdescrip">
+                            <p>With help of environmental conditions that takes place prior to a disease attack and
+                                learn
+                                the pattern to predict the disease using Machine Learning and IoT. </p>
+                        </div>
+                        <div class="Pbtnn">
+                            <div>
+                                <button class="bt1">CODE</button>
+                            </div>
+                            <div>
+                                <button class="bt1"><a href="http://predicto-cdp.herokuapp.com/">DEMO</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+
+
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+                <div class="card">
+                    <div class="face front">
+                        <div class="photo">
+                            <img src="./public/images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg"></img>
+                        </div>
+                    </div>
+
+
+                    <div class="face back">
+                        <div class="projcardhed">
+                            <p><strong>PREDECTO</strong></p>
+                        </div>
+                        <div class="Pdescrip">
+                            <p>With help of environmental conditions that takes place prior to a disease attack and
+                                learn
+                                the pattern to predict the disease using Machine Learning and IoT. </p>
+                        </div>
+                        <div class="Pbtnn">
+                            <div>
+                                <button class="bt1">CODE</button>
+                            </div>
+                            <div>
+                                <button class="bt1"><a href="http://predicto-cdp.herokuapp.com/">DEMO</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+
+
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+                <div class="card">
+                    <div class="face front">
+                        <div class="photo">
+                            <img src="./public/images/ali-khalafi-uvYXabzp8RE-unsplash.jpg"></img>
+                        </div>
+                    </div>
+
+
+                    <div class="face back">
+                        <div class="projcardhed">
+                            <p><strong>PREDECTO</strong></p>
+                        </div>
+                        <div class="Pdescrip">
+                            <p>With help of environmental conditions that takes place prior to a disease attack and
+                                learn
+                                the pattern to predict the disease using Machine Learning and IoT. </p>
+                        </div>
+                        <div class="Pbtnn">
+                            <div>
+                                <button class="bt1">CODE</button>
+                            </div>
+                            <div>
+                                <button class="bt1"><a href="http://predicto-cdp.herokuapp.com/">DEMO</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD LIST avavmamvevmev[dov[a===================================]] -->
+
+
+
+
+
+                <!-- //////////////////////////Card2 testing -->
             </div>
 
 
@@ -191,12 +392,12 @@
 
     <section id="contact">
 
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <div class="tittle">Contact Me</div>
             <form action="#">
                 <div class="user-details">
                     <div class="input-box">
-                        <span class="details">Full Name</span>
+
                         Full Name
                         <input type="text" placeholder="Enter Your Name" required>
                     </div>
@@ -204,7 +405,7 @@
 
 
                     <div class="input-box">
-                        <span class="details">Email</span>
+
                         Email
                         <input type="Email" placeholder="Enter Your Email" required>
                     </div>
@@ -214,10 +415,10 @@
 
 
                     <div class="input-box">
-                        <span class="details">Message</span>
+
                         Message
                         <textarea class="form-control" cols="100" rows="20" placeholder="Enter Your Message" required>
-                        </textarea>>
+                        </textarea>
 
                         </textarea>
                     </div>
@@ -240,13 +441,32 @@
     </section>
 
     <!-- ========================================================================== -->
+    <section id="Footer">
+        <div class="Footer-box">
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
     <script type="text/javascript" src="./vanilla-tilt.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelector(".right"), {
             max: 25,
             speed: 400
         });
-        VanillaTilt.init(document.querySelectorAll(".box"));
+        // VanillaTilt.init(document.querySelectorAll(".box"));
 
 
 
@@ -270,6 +490,14 @@
 
 
 
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 800,
+        });
     </script>
 </body>
 
